@@ -1,0 +1,149 @@
+@import 'fonts.css';
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #EDE4DB;
+}
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+}
+.row {
+    margin-right: 0px;
+}
+.left_bar {
+    background-color: #EFA0AE;
+    height: 100%;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.list-group {
+    list-style: none;
+    padding: 0px;
+}
+.list-group-item {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    background-color: #EFA0AE;
+    border: none;
+}
+.list-group-item > a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.sort {
+    margin-top: 31px;
+}
+.sort > h2 {
+    margin-left: 15px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.sort_time {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.sort_time > button {
+    /* background-color: #C45061; */
+    background-color: #EDE4DB;
+    height: 23px;
+    width: 70px;
+    border: none;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.sort_time > div {
+    display: flex;
+    background-color: #C45061;
+    width: 197px;
+    height: 25px;
+    border-radius: 26px;
+}
+.sort_time > div > p {
+    margin-top: 4px;
+    margin-left: 18px;
+    color: #fff;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+
+}
+.sort_time > div > input {
+    background-color: #C45061;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 57px;
+    height: 19px;
+    margin-top: 1px;
+    margin-left: 1px;
+    text-align: center;
+    color: #fff;
+}
+input:focus {
+    outline: none;
+    text-align: center;
+}
+.stat {
+    margin-top: 30px;
+}
+.stat > h2 {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.stat_cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+.stat_card {
+    width: 100%;
+    min-height: 65px;
+    background-color: #D6C4B5;
+    border-radius: 7px;
+}
+.stat_card > h3 {
+    margin-top: 19px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+.stat_prod {
+    margin-top: 30px;
+}
+.stat_prod > h2 {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.stat_prod > button {
+    background-color: #EDE4DB;
+    border: none;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.exit {
+    margin-left: 12px;
+    width: 100%;
+    height: 34px;
+    border: none;
+    background-color: #D6C4B5;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
