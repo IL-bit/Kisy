@@ -12,91 +12,69 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-2">
-                <section class="left_bar">
-                    <img src="../img/logo.svg" alt="Kisy">
-                    <nav>
-                        <ul class="list-group">
-                            <li class="list-group-item" style="background-color: #C45061;"><a href="#" style="color: #fff;">Статистика</a></li>
-                            <li class="list-group-item"><a href="#">Заказы</a></li>
-                            <li class="list-group-item"><a href="#">Товары</a></li>
-                            <li class="list-group-item"><a href="#">Будка поцелуев</a></li>
-                            <li class="list-group-item"><a href="#">Акции</a></li>
-                            <li class="list-group-item"><a href="#">Баннеры</a></li>
-                            <li class="list-group-item"><a href="#">Сторис</a></li>
-                            <li class="list-group-item"><a href="#">Медитации</a></li>
-                            <li class="list-group-item"><a href="#">Аккаунты</a></li>
-                            <li class="list-group-item"><a href="#">Логи<br>Администратора</a></li>
-                            <li class="list-group-item"><a href="#">Послать пуш-<br>уведомление</a></li>
-                        </ul>
-                    </nav>
-                </section>
+                <nav>
+                    <img src="../img/logo.svg" alt="#">
+                    <ul>
+                        <li>Статистика</li>
+                        <li>Заказы</li>
+                        <li>Товары</li>
+                        <li>Будка поцелуев</li>
+                        <li>Акции</li>
+                        <li>Баннеры</li>
+                        <li>Сторис</li>
+                        <li>Медитации</li>
+                        <li>Аккаунты</li>
+                        <li>Логи<br>Администратора</li>
+                        <li>Послать пуш-<br>уведомление</li>
+                    </ul>
+                </nav>
             </div>
             <div class="col-9">
                 <main>
                     <section class="sort">
                         <h2>Сортировка по критериям:</h2>
-                        <div class="sort_time">
-                            <button style="background-color: #C45061; color: #fff;">Сутки</button>
+                        <div class="time">
+                            <button>Сутки</button>
                             <button>7 дней</button>
                             <button>14 дней</button>
                             <button>Месяц</button>
                             <button>Всего</button>
-                            <div><p>от</p><input type="text"><p>до</p><input type="text"></div>
-                        </div>                        
+                        </div>
+                        <div class="input-container">
+                            <label for="from">От:</label>
+                            <input type="text" id="from" name="from">
+                            <label for="to">До:</label>
+                            <input type="text" id="to" name="to">
+                        </div>
                     </section>
                     <section class="stat">
-                        <h2>Статистика:</h2>
+                        <h2>Статистика</h2>
                         <div class="stat_cards">
-                            <div class="stat_card"><h3>Регистраций:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Заработано:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Покупок:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Будка поцелуев</h3></div>
-                        </div>                        
+                            <div class="stat_card">
+                                <h3>Регистраций:</h3>
+                                <p>123456</p>
+                            </div>
+                            <div class="stat_card">
+                                <h3>Заработано:</h3>
+                                <p>123456</p>
+                            </div>
+                            <div class="stat_card">
+                                <h3>Покупок:</h3>
+                                <p>123456</p>
+                            </div>
+                            <div class="stat_card">
+                                <h3>Будка поцелуев:</h3>
+                                <p>123456</p>
+                            </div>
+                        </div>
                     </section>
                     <section class="stat_prod">
-                        <h2>Статистика по товарам:</h2>
-                        <button>Все товары</button>
-                        <button>По категориям</button>
-                        <div class="stat_cards">
-                            <div class="stat_card"><h3>Крем-баттер<br>Милкшейк:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Лифтинг скраб<br>Вишня в сахаре:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Крем-баттер<br>апельсиновая жвачка:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Бальзам для губ<br>Балийская маракуйя:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Крем-баттер<br>Милкшейк:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Лифтинг скраб<br>Вишня в сахаре:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Крем-баттер<br>апельсиновая жвачка:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Бальзам для губ<br>Балийская маракуйя:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Крем-баттер<br>Милкшейк:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Лифтинг скраб<br>Вишня в сахаре:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Крем-баттер<br>апельсиновая жвачка:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Бальзам для губ<br>Балийская маракуйя:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Крем-баттер<br>Милкшейк:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Лифтинг скраб<br>Вишня в сахаре:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Крем-баттер<br>апельсиновая жвачка:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Бальзам для губ<br>Балийская маракуйя:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Крем-баттер<br>Милкшейк:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Лифтинг скраб<br>Вишня в сахаре:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Крем-баттер<br>апельсиновая жвачка:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Бальзам для губ<br>Балийская маракуйя:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Крем-баттер<br>Милкшейк:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Лифтинг скраб<br>Вишня в сахаре:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Крем-баттер<br>апельсиновая жвачка:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Бальзам для губ<br>Балийская маракуйя:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Крем-баттер<br>Милкшейк:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Лифтинг скраб<br>Вишня в сахаре:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Крем-баттер<br>апельсиновая жвачка:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Бальзам для губ<br>Балийская маракуйя:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Крем-баттер<br>Милкшейк:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Лифтинг скраб<br>Вишня в сахаре:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Крем-баттер<br>апельсиновая жвачка:<br>123456</h3></div>
-                            <div class="stat_card"><h3>Бальзам для губ<br>Балийская маракуйя:<br>123456</h3></div>
-                        </div>  
+                        <h2></h2>
                     </section>
                 </main>
             </div>
-            <div class="col-1">
-                <button class="exit">Выйти</button>
-            </div>
+            <div class="col-1"></div>
+        </div>
     </div>
 </body>
 </html>
