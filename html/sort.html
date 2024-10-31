@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/sort.css">
-    <link rel="stylesheet" href="./../css/fotns.css">
+    <link rel="stylesheet" href="../css/fotns.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-2">
+            <div class="col-2" id="left_bar">
                 <nav>
-                    <img src="../img/logo.svg" alt="#">
+                    <img src="../img/logo.svg" alt="#" draggable="false">
                     <ul>
-                        <li>Статистика</li>
+                        <li style="background-color: #C45061; color: #fff;">Статистика</li>
                         <li>Заказы</li>
                         <li>Товары</li>
                         <li>Будка поцелуев</li>
@@ -31,19 +31,19 @@
             </div>
             <div class="col-9">
                 <main>
-                    <section class="sort">
-                        <h2>Сортировка по критериям:</h2>
+                    <h2>Сортировка по критериям:</h2>
+                    <section class="sort">                        
                         <div class="time">
                             <button>Сутки</button>
-                            <button>7 дней</button>
-                            <button>14 дней</button>
-                            <button>Месяц</button>
-                            <button>Всего</button>
+                            <button disabled>7 дней</button>
+                            <button disabled>14 дней</button>
+                            <button disabled>Месяц</button>
+                            <button disabled>Всего</button>
                         </div>
                         <div class="input-container">
-                            <label for="from">От:</label>
+                            <label for="from">От</label>
                             <input type="text" id="from" name="from">
-                            <label for="to">До:</label>
+                            <label for="to">До</label>
                             <input type="text" id="to" name="to">
                         </div>
                     </section>
@@ -66,14 +66,149 @@
                                 <h3>Будка поцелуев:</h3>
                                 <p>123456</p>
                             </div>
-                        </div>
+                        </div>                   
                     </section>
                     <section class="stat_prod">
-                        <h2></h2>
+                        <div class="head">
+                            <h2>Статистика по товарам:</h2>
+                            <button>Все товары</button>
+                            <button>По категориям</button>                         
+                        </div>                            
+                        <button class="find">Найти товар</button>   
+                        <div class="cards">
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                            <div class="card">
+                                <h3>Крем-баттер Милкшейк:</h3>
+                                <p>452</p>
+                            </div>
+                        </div>
                     </section>
                 </main>
             </div>
-            <div class="col-1"></div>
+            <div class="col-1" id="right_bar"><button class="exit">выйти</button></div>
         </div>
     </div>
 </body>
