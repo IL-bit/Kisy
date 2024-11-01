@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/orders.css">
+    <link rel="stylesheet" href="../css/fotns.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2" id="left_bar">
+                <nav>
+                    <img src="../img/logo.svg" alt="#" draggable="false">
+                    <ul>
+                        <li>Статистика</li>
+                        <li style="background-color: #C45061; color: #fff;">Заказы</li>
+                        <li>Товары</li>
+                        <li>Будка поцелуев</li>
+                        <li>Акции</li>
+                        <li>Баннеры</li>
+                        <li>Сторис</li>
+                        <li>Медитации</li>
+                        <li>Аккаунты</li>
+                        <li>Логи<br>Администратора</li>
+                        <li>Послать пуш-<br>уведомление</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-10">
+                <main>
+                    <section id="find_order">
+                        <button class="exit">выйти</button>
+                        <input type="text" placeholder="Телефон / № заказ">
+                        <select>
+                            <option value="" disabled selected hidden>Статус заказа</option>
+                            <option value="pending">В ожидании</option>
+                            <option value="completed">Завершенные</option>
+                            <option value="canceled">Отмененные</option>
+                        </select>
+                        <button>Найти заказ</button>
+                        <div class="table_orders">
+                            <div class="status">
+                                <p>№ заказа:</p>
+                                <p>Телефон:</p>
+                                <p>Имя:</p>
+                                <p>Почта:</p>
+                                <p>Доставка:</p>
+                                <p>Стоимость:</p>
+                                <p>Статус:</p>  
+                            </div>
+                        </div>
+                    </section>
+                    <section id="orders">
+                        <div class="order">
+                            <div class="status">
+                                <p>111111111</p>
+                                <p>+7 777 777 77 77</p>
+                                <p>Имя Фамилия</p>
+                                <p>email-example@gmail.com</p>
+                                <p>сдэк</p>
+                                <p>3500</p>
+                                <p>Оплачено</p>  
+                            </div> 
+                            <button>Подробнее<img src="#" alt="#"></button>
+                        </div>
+                        <div class="order_description">
+                            <div class="head">
+                                <p>Фото</p>
+                                <p>ID</p>
+                                <p>Название:</p>
+                                <p>Количество</p>
+                                <p>Без Акции</p>
+                                <p>Цена</p>
+                                <p>Стоимость<br>Доставки</p>
+                            </div>
+                            <div class="info">
+                                <img src="#" alt="#">
+                                <p>94</p>
+                                <p>Питательный бальзам для волос KISY с ароматом фрутового льда</p>
+                                <p>1 шт.</p>
+                                <p>699 р.</p>
+                                <p>599 р.</p>
+                                <p>299 р.</p>
+                            </div>
+                            <p id="id_prod">ID продукта:</p>
+                            <p>Акции/Бонусы: скидка по промокоду</p>
+                            <p>Стоимость доставки: 100р.</p>
+                            <p>Адрес доставки: За горами за лесми горы да леса,хэй</p>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

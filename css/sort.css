@@ -46,17 +46,17 @@ main > h2 {
     font-weight: 400;    
     font-size: 14px; 
 }
-.sort {
+#sort {
     display: flex;
     justify-content: space-between;
 }
-.sort > .time {
+#sort > .time {
     width: 500px;
     height: 23px;
     display: flex;
     justify-content: space-between;
 }
-.sort > .time > button {
+#sort > .time > button {
     width: auto;
     height: 23px;
     padding-left: 14px;
@@ -69,11 +69,11 @@ main > h2 {
     color: #fff;
     text-align: center;
 }
-.sort > .time > button:disabled {
+#sort > .time > button:disabled {
     color: #000;
     background: none;
 }
-.sort > .input-container {    
+#sort > .input-container {    
     width: 197px;  
     height: 25px;
     padding: 4px 18px;
@@ -87,33 +87,33 @@ main > h2 {
     display: flex;
     justify-content: space-between;
 }
-.sort > .input-container > label {
+#sort > .input-container > label {
     text-transform: lowercase;
 }
-.sort > .input-container > input {
+#sort > .input-container > input {
     width: 57px;
     background: none;
     border: none;
     border-bottom: 1px solid #fff;
     color: #fff;
 }
-.sort > .input-container > input:focus {
+#sort > .input-container > input:focus {
     outline: none;
 }
-.stat {
+#stat {
     margin-top: 28px;
 }
-.stat > h2 {
+#stat > h2 {
     font-family: 'Basis Grotesque Pro', sans-serif;
     font-weight: 400;    
     font-size: 14px; 
 }
-.stat > .stat_cards {
+#stat > .stat_cards {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.stat > .stat_cards > .stat_card {
+#stat > .stat_cards > .stat_card {
     width: 20%;
     height: 65px;
     background-color: #D6C4B5;
@@ -125,23 +125,23 @@ main > h2 {
     align-items: center;
     justify-content: center;
 }
-.stat > .stat_cards > .stat_card > h3, .stat > .stat_cards > .stat_card > p {
+#stat > .stat_cards > .stat_card > h3, .stat > .stat_cards > .stat_card > p {
     font-family: 'Basis Grotesque Pro', sans-serif;
     font-weight: 400;    
     font-size: 13px; 
     margin: 0;
 }
-.stat_prod {
+#stat_prod {
     margin-top: 28px;
     position: relative;
 }
-.stat_prod > .head {
+#stat_prod > .head {
     width: 377px;
     height: 25px;
     display: flex;
     justify-content: space-between;
 }
-.stat_prod > .head > h2 {
+#stat_prod > .head > h2 {
     width: 153px;   
     height: 25px; 
     font-family: 'Basis Grotesque Pro', sans-serif;
@@ -152,7 +152,7 @@ main > h2 {
     margin-bottom: 0;
 
 }
-.stat_prod > .head > button {
+#stat_prod > .head > button {
     width: auto;
     height: 25px;
     font-family: 'Basis Grotesque Pro', sans-serif;
@@ -161,7 +161,7 @@ main > h2 {
     border: none;
     background: none;
 }
-.stat_prod > .find {
+#stat_prod > .find {
     width: 197px;
     height: 25px;
     font-family: 'Basis Grotesque Pro', sans-serif;
@@ -175,13 +175,13 @@ main > h2 {
     top: 0;
     right: 0;
 }
-.stat_prod > .cards {
+#stat_prod > .cards {
     display: flex; 
     flex-wrap: wrap; 
     gap: calc(20%/3);
     margin-top: 19px;
 } 
-.stat_prod > .cards > .card {
+#stat_prod > .cards > .card {
     flex: 0 0 20%; 
     box-sizing: border-box; 
     padding: 20px;
@@ -191,7 +191,7 @@ main > h2 {
     border-radius: 4px; 
     text-align: center;
 }
-.stat_prod > .cards > .card > h3, .stat_prod > .cards > .card > p {
+#stat_prod > .cards > .card > h3, .stat_prod > .cards > .card > p {
     font-family: 'Basis Grotesque Pro', sans-serif;
     font-weight: 400;    
     font-size: 13px; 
