@@ -120,56 +120,230 @@
     align-items: center;
 }
 #find_order > .table_orders > .status {
-    width: 700px;    
+    width: auto;    
     display: flex;
     justify-content: space-between;
-    margin-left: 41px;
+    margin-left: 30px;
 }
 #find_order > .table_orders > .status > p {
-    width: auto;
     font-family: 'Basis Grotesque Pro', sans-serif;
     font-weight: 400;    
     font-size: 14px; 
     margin-bottom: 0;
+    text-align: center;
 }
-#orders {
-    margin-top: 17px;
+#find_order > .table_orders > .status > :nth-child(1) {
+    width: 80px;
+}
+#find_order > .table_orders > .status > :nth-child(2) {
+    width: 62px;
+    margin-left: 42px;
+}
+#find_order > .table_orders > .status > :nth-child(3) {
+    width: 29px;
+    margin-left: 70px;
+}
+#find_order > .table_orders > .status > :nth-child(4) {
+    width: 42px;
+    margin-left: 53px;
+}
+#find_order > .table_orders > .status > :nth-child(5) {
+    width: 63px;
+    margin-left: 23px;
+}
+#find_order > .table_orders > .status > :nth-child(6) {
+    width: 86px;
+    margin-left: 8px;
+}
+#find_order > .table_orders > .status > :nth-child(7) {
+    width: 44px;
+    margin-left: 12px;
 }
 #orders > .order {
     width: 100%;
-    height: 46px;
+    height: auto;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    padding: 15px;
     background-color: #D6C4B5;
     border: none;
     border-radius: 7px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 #orders > .order > .status {
-    width: 700px;    
+    width: 600px;    
     display: flex;
     justify-content: space-between;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 #orders > .order > .status > p {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 13px; 
     text-align: center;
     margin-bottom: 0;
 }
-.order > .status:nth-child(1) {
-    max-width: 48px;
+#orders > .order > .status > :nth-child(1) {
+    width: 50px;
 }
-.order > .status:nth-child(2) {
-    max-width: 107px;
+#orders > .order > .status > :nth-child(2) {
+    width: 107px;
 }
-.order > .status:nth-child(3) {
-    max-width: 55px;
+#orders > .order > .status > :nth-child(3) {
+    width: 55px;
 }
-.order > .status:nth-child(4) {
-    max-width: 46px;
+#orders > .order > .status > :nth-child(4) {
+    width: 50px;
 }
-.order > .status:nth-child(5) {
-    max-width: 48px;
+#orders > .order > .status > :nth-child(5) {
+    width: 30px;
+}
+#orders > .order > .status > :nth-child(6) {
+    width: 40px;
+}
+#orders > .order > .status > :nth-child(7) {
+    width: 60px;
 }
 #orders > .order > button {
     width: 100px;
     height: 20px;
+    background: none;
+    border: none;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 700;    
+    font-size: 13px;
+    position: absolute;
+    top: 17px;
+    right: 8px;
+    left: auto;
+}
+#orders > .order > button:focus {
+    outline: none;
+}
+#orders > .order > button > img {
+    width: 13px;
+    height: 14px;
+}
+.active {
+    color: #C45061;
+}
+.disactive {
+    color: #000;
+}
+#orders > .order_description {
+    width: 100%;
+    height: 203px;
+    background-color: #D6C4B5;
+    border-radius: 7px;
+    margin-top: 12px;
+    position: relative;
+}
+#orders > .order_description > .head {
+    width: 100%;
+    height: 47px;
+    background-color: #C45061;
+    padding: 15px 20px 15px 50px;
+    border: none;
+    border-radius: 7px 7px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#orders > .order_description > .head > p {
+    margin-bottom: 0;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 13px; 
+    text-align: center;
+    color: #fff;
+}
+#orders > .order_description > .head > :nth-child(1) {
+    width: 100px;
+    height: auto;
+}
+#orders > .order_description > .head > :nth-child(2) {
+    width: 96px;
+}
+#orders > .order_description > .head > :nth-child(3) {
+    width: 200px;
+}
+#orders > .order_description > .head > :nth-child(4) {
+    width: 71px;
+}
+#orders > .order_description > .head > :nth-child(5) {
+    width: 100px;
+}
+#orders > .order_description > .head > :nth-child(6) {
+    width: 37px;
+}
+#orders > .order_description > .head > :nth-child(7) {
+    width: 66px;
+}
+#orders > .order_description > .info {
+    width: 100%;
+    padding: 15px 20px 15px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#orders > .order_description > .info > p {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+    text-align: center;
+}
+#orders > .order_description > .info > :nth-child(1) {
+    width: 100px;
+    height: auto;
+}
+#orders > .order_description > .info > :nth-child(2) {
+    width: 96px;
+}
+#orders > .order_description > .info > :nth-child(3) {
+    width: 200px;
+}
+#orders > .order_description > .info > :nth-child(4) {
+    width: 71px;
+}
+#orders > .order_description > .info > :nth-child(5) {
+    width: 100px;
+}
+#orders > .order_description > .info > :nth-child(6) {
+    width: 37px;
+}
+#orders > .order_description > .info > :nth-child(7) {
+    width: 66px;
+}
+#orders > .order_description > p {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+}
+#orders > .order_description > :nth-child(3) {
+    font-size: 13px;
+    position: absolute;
+    left: 8px;
+    right: auto;
+    top: 135px; 
+}
+#orders > .order_description > :nth-child(4) {
+    font-size: 13px;
+    position: absolute;
+    right: 14px;
+    left: auto;
+    top: 135px; 
+}
+#orders > .order_description > :nth-child(5) {
+    position: absolute;
+    left: 8px;
+    right: auto;
+    top: 177px; 
+}
+#orders > .order_description > :nth-child(6) {
+    position: absolute;
+    left: 269px;
+    right: auto;
+    top: 177px; 
 }
