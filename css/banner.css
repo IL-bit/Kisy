@@ -1,0 +1,423 @@
+@import 'fonts.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid {
+    background-color: #EDE4DB;
+}
+/* left_bar */
+#left_bar {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #EFA0AE;
+}
+#left_bar > nav {
+    width: 100%;
+    height: 100vh;
+}
+#left_bar > nav > img {
+    width: 126px;
+    height: 77px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#left_bar > nav > ul {
+    width: 100%;
+    height: auto;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+#left_bar > nav > ul > :nth-child(11) {
+    height: 60px;
+}
+#left_bar > nav > ul > li {
+    padding: 12px;
+    width: 100%;
+    height: 41px;
+    text-align: center; 
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 12px; 
+}
+/* main */
+#add_del_banner > .exit {
+    width: 85px;
+    height: 34px;
+    margin: 0;
+    background-color: #D6C4B5;
+    border: none;
+    border-radius: 0;
+    position: absolute;
+    top: -45px;
+    right: -12px;
+    left: auto;
+    font-family: 'Basis Grotesque Pro';
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    line-height: auto;
+    text-transform: uppercase;
+}
+#add_del_banner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    position: relative;
+}
+#add_del_banner > .left {
+    width: 49%;
+    height: 210px;
+    background-color: #D6C4B5;
+    border: none;
+    border-radius: 7px;
+}
+#add_del_banner > .left > h2 {
+    text-align: center; 
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 500;    
+    font-size: 14px; 
+    margin-top: 5px;
+}
+#add_del_banner > .left > form {
+    width: 100%;
+    position: relative;
+}
+#add_del_banner > .left > form > label {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+    position: absolute;
+    left: 10px;
+    right: auto;
+}
+#add_del_banner > .left > form > :nth-child(1) {
+    top: 4px;
+}
+#add_del_banner > .left > form > :nth-child(3) {
+    top: 35px;
+}
+#add_del_banner > .left > form > :nth-child(5) {
+    top: 66px;
+}
+#add_del_banner > .left > form > :nth-child(7) {
+    top: 96px;
+}
+#add_del_banner > .left > form > input {
+    width: 250px;
+    height: 25px;
+    background-color: #C45061;
+    border: none;
+    border-radius: 35px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: auto;
+    right: 12px;
+}
+#add_del_banner > .left > form > input::placeholder {
+    color: #fff;
+}
+#add_del_banner > .left > form > input:focus {
+    outline: none;
+}
+#add_del_banner > .left > form > select:focus {
+    outline: none;
+}
+#add_del_banner > .left > form > select {
+    width: 250px;
+    height: 25px;
+    background-color: #C45061;
+    border: none;
+    border-radius: 35px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: auto;
+    right: 12px;
+}
+#add_del_banner > .left > form > :nth-child(2) {
+    top: 0;
+}
+#add_del_banner > .left > form > :nth-child(4) {
+    top: 31px;
+}
+#add_del_banner > .left > form > :nth-child(6) {
+    top: 62px;
+}
+#add_del_banner > .left > form > :nth-child(8) {
+    top: 93px;
+}
+#add_del_banner > .left > form > button {
+    width: 122px;
+    height: 25px;
+    background-color: #C45061;
+    border: none;
+    border-radius: 35px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+    color: #fff;
+    position: absolute;
+    top: 139px;
+    left: auto;
+    right: 12px;
+}
+
+#add_del_banner > .right {
+    width: 49%;
+    height: 210px;
+    background-color: #D6C4B5;
+    border: none;
+    border-radius: 7px;
+}
+#add_del_banner > .right > h2 {
+    text-align: center; 
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 500;    
+    font-size: 14px; 
+    margin-top: 5px;
+}
+#add_del_banner > .right > form {
+    width: 100%;
+    position: relative;
+}
+#add_del_banner > .right > form > label {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+    position: absolute;
+    left: 10px;
+    right: auto;
+}
+#add_del_banner > .right > form > :nth-child(1) {
+    top: 14px;
+}
+#add_del_banner > .right > form > :nth-child(3) {
+    top: 53px;
+}
+#add_del_banner > .right > form > input {
+    width: 250px;
+    height: 25px;
+    background-color: #C45061;
+    border: none;
+    border-radius: 35px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: auto;
+    right: 12px;
+    top: 49px;
+}
+#add_del_banner > .right > form > input::placeholder {
+    color: #fff;
+}
+#add_del_banner > .right > form > input:focus {
+    outline: none;
+}
+#add_del_banner > .right > form > select {
+    width: 250px;
+    height: 25px;
+    background-color: #C45061;
+    border: none;
+    border-radius: 35px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: auto;
+    right: 12px;
+    top: 10px;
+}
+#add_del_banner > .right > form > select:focus {
+    outline: none;
+}
+#add_del_banner > .right > form > button {
+    width: 122px;
+    height: 25px;
+    background-color: #C45061;
+    border: none;
+    border-radius: 35px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+    color: #fff;
+    position: absolute;
+    top: 139px;
+    left: auto;
+    right: 12px;
+}
+
+#banner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    position: relative;
+}
+#banner > .left {
+    width: 49%;
+    height: 141px;
+    background-color: #D6C4B5;
+    border: none;
+    border-radius: 7px;
+}
+#banner > .left > p {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+    margin-left: 12px;
+    margin-top: 13px;
+}
+#banner > .left > h2 {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 500;    
+    font-size: 14px; 
+    margin-left: 12px;
+    margin-top: -9px;
+}
+#banner > .left > div {
+    width: 100%;
+    position: relative;
+}
+#banner > .left > div > p {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+    position: absolute;
+    left: 12px;
+    top: 0px;
+}
+#banner > .left > div > label {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+    position: absolute;
+    left: 12px;
+}
+#banner > .left > div > :nth-child(2) {
+    top: 25px;
+}
+#banner > .left > div > :nth-child(4) {
+    top: 46px;
+}
+#banner > .left > div > input {
+    height: 19px;
+    background-color: #C45061;
+    border: none;
+    border-radius: 35px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right: auto;
+}
+#banner > .left > div > input:focus {
+    outline: none;
+}
+#banner > .left > div > input::placeholder {
+    color: #fff;
+}
+#banner > .left > div > :nth-child(3) {
+    width: 160px;
+    top: 22px;
+    left: 69px;
+}
+#banner > .left > div > :nth-child(5) {
+    width: 141px;
+    top: 46px;
+    left: 88px;
+}
+#banner > .left > div > img {
+    width: 162px;
+    height: 86px;
+    border: 1px solid #000;
+    position: absolute;
+    right: 9px;
+    left: auto;
+    top: -22px;
+}
+
+#banner > .right {
+    width: 49%;
+    height: 141px;
+    background-color: #D6C4B5;
+    border: none;
+    border-radius: 7px;
+}
+#banner > .right > h2 {
+    text-align: center; 
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 500;    
+    font-size: 14px; 
+    margin-top: 5px;
+}
+#banner > .right > form {
+    width: 100%;
+    position: relative;
+    margin-top: 14px;
+}
+#banner > .right > form > label {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+    position: absolute;
+    left: 12px;
+    right: auto;
+    top: 4px;
+}
+#banner > .right > form > input {
+    width: 274px;
+    height: 25px;
+    background-color: #C45061;
+    border: none;
+    border-radius: 35px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: auto;
+    right: 13px;
+    top: 0;
+}
+#banner > .right > form > input::placeholder {
+    color: #fff;
+}
+#banner > .right > form > input:focus {
+    outline: none;
+}
+#banner > .right > form > button {
+    width: 122px;
+    height: 25px;
+    border: none;
+    border-radius: 35px;
+    background-color: #C45061;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;    
+    font-size: 14px; 
+    color: #fff;
+    position: absolute;
+    left: auto;
+    right: 13px;
+    top: 69px;
+}
